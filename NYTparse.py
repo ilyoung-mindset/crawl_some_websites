@@ -115,8 +115,8 @@ for urls in urllst:
                     n += 1
                     print(n)
 
-fe = codecs.open("/Users/YiSangHyun/Desktop/nyt_e.txt",'w',encoding='utf8')
+fe = codecs.open("./nyt_e.txt",'w',encoding='utf8')
 fe.write(e_text)
-fc = codecs.open("/Users/YiSangHyun/Desktop/nyt_c.txt",'w',encoding='utf8')
+fc = codecs.open("./nyt_c.txt",'w',encoding='utf8')
 fc.write(c_text)
 
