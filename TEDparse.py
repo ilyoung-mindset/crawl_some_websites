@@ -41,9 +41,9 @@ for i in range(1,64): #change index
         if (len(ko_content)<5)|(len(en_content)<5)|(len(cn_content)<5):
             next
         else:
-            ko_filepath = "/Users/YiSangHyun/Desktop/TED/" + video.get("href")[7:] + "_ko.txt"
-            en_filepath = "/Users/YiSangHyun/Desktop/TED/" + video.get("href")[7:] + "_en.txt"
-            cn_filepath = "/Users/YiSangHyun/Desktop/TED/" + video.get("href")[7:] + "_cn.txt" 
+            ko_filepath = "./" + video.get("href")[7:] + "_ko.txt"
+            en_filepath = "./" + video.get("href")[7:] + "_en.txt"
+            cn_filepath = "./" + video.get("href")[7:] + "_cn.txt" 
             fk = codecs.open(ko_filepath,'w',encoding='utf8')
             fk.write(ko_content)
             fe = codecs.open(en_filepath,'w',encoding='utf8')
