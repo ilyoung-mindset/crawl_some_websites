@@ -34,7 +34,7 @@ for i in range(1,19): #change range and below trailing url
 	content = firsttree.xpath('//div[@class="zoomMe"]')
 	content = content[0].text_content().lstrip()
 	
-	newpath = "/Users/YiSangHyun/Desktop/VOA/"+title
+	newpath = "./"+title
 	if os.path.exists(newpath):
                 os.makedirs(newpath+'_1')
         else:
