@@ -1,4 +1,4 @@
-# CrawlSomeWebsites
+# Crawl Some Websites
 Python programs for crawling some web sites and return parallel txt.
 
 [NYTparse.py](https://github.com/sangyi92/CrawlSomeWebsites/blob/master/NYTparse.py) is for crawling http://cn.nytimes.com main page and return chinese, english parallel articles.
